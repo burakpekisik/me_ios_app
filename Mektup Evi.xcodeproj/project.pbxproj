@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4705CAC92AA9C0A3002AAE4D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4705CAC82AA9C0A3002AAE4D /* Launch Screen.storyboard */; };
+		477BC0B62AA91E9E0056513B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477BC0B52AA91E9E0056513B /* Media.xcassets */; };
+		47C8EE802AA8E2F1007E8B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8EE7F2AA8E2F1007E8B6A /* AppDelegate.swift */; };
+		47C8EE822AA8E2F1007E8B6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8EE812AA8E2F1007E8B6A /* SceneDelegate.swift */; };
+		47C8EE842AA8E2F1007E8B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8EE832AA8E2F1007E8B6A /* ViewController.swift */; };
+		47C8EE872AA8E2F1007E8B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C8EE852AA8E2F1007E8B6A /* Main.storyboard */; };
+		47C8EE892AA8E2F3007E8B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C8EE882AA8E2F3007E8B6A /* Assets.xcassets */; };
+		47C8EE972AA8E2F3007E8B6A /* Mektup_EviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8EE962AA8E2F3007E8B6A /* Mektup_EviTests.swift */; };
+		47C8EEA12AA8E2F3007E8B6A /* Mektup_EviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8EEA02AA8E2F3007E8B6A /* Mektup_EviUITests.swift */; };
+		47C8EEA32AA8E2F3007E8B6A /* Mektup_EviUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8EEA22AA8E2F3007E8B6A /* Mektup_EviUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47C8EE932AA8E2F3007E8B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47C8EE742AA8E2F1007E8B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C8EE7B2AA8E2F1007E8B6A;
+			remoteInfo = "Mektup Evi";
+		};
+		47C8EE9D2AA8E2F3007E8B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47C8EE742AA8E2F1007E8B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C8EE7B2AA8E2F1007E8B6A;
+			remoteInfo = "Mektup Evi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4705CAC82AA9C0A3002AAE4D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		471047F42AAA042D0063D8D0 /* Mektup Evi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mektup Evi.entitlements"; sourceTree = "<group>"; };
+		477BC0B52AA91E9E0056513B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		47C8EE7C2AA8E2F1007E8B6A /* Mektup Evi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mektup Evi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8EE7F2AA8E2F1007E8B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47C8EE812AA8E2F1007E8B6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47C8EE832AA8E2F1007E8B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47C8EE862AA8E2F1007E8B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47C8EE882AA8E2F3007E8B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47C8EE8D2AA8E2F3007E8B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C8EE922AA8E2F3007E8B6A /* Mektup EviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mektup EviTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8EE962AA8E2F3007E8B6A /* Mektup_EviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mektup_EviTests.swift; sourceTree = "<group>"; };
+		47C8EE9C2AA8E2F3007E8B6A /* Mektup EviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mektup EviUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8EEA02AA8E2F3007E8B6A /* Mektup_EviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mektup_EviUITests.swift; sourceTree = "<group>"; };
+		47C8EEA22AA8E2F3007E8B6A /* Mektup_EviUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mektup_EviUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C8EE792AA8E2F1007E8B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8EE8F2AA8E2F3007E8B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8EE992AA8E2F3007E8B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47C8EE732AA8E2F1007E8B6A = {
+			isa = PBXGroup;
+			children = (
+				4705CAC82AA9C0A3002AAE4D /* Launch Screen.storyboard */,
+				477BC0B52AA91E9E0056513B /* Media.xcassets */,
+				47C8EE7E2AA8E2F1007E8B6A /* Mektup Evi */,
+				47C8EE952AA8E2F3007E8B6A /* Mektup EviTests */,
+				47C8EE9F2AA8E2F3007E8B6A /* Mektup EviUITests */,
+				47C8EE7D2AA8E2F1007E8B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47C8EE7D2AA8E2F1007E8B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47C8EE7C2AA8E2F1007E8B6A /* Mektup Evi.app */,
+				47C8EE922AA8E2F3007E8B6A /* Mektup EviTests.xctest */,
+				47C8EE9C2AA8E2F3007E8B6A /* Mektup EviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47C8EE7E2AA8E2F1007E8B6A /* Mektup Evi */ = {
+			isa = PBXGroup;
+			children = (
+				471047F42AAA042D0063D8D0 /* Mektup Evi.entitlements */,
+				47C8EE7F2AA8E2F1007E8B6A /* AppDelegate.swift */,
+				47C8EE812AA8E2F1007E8B6A /* SceneDelegate.swift */,
+				47C8EE832AA8E2F1007E8B6A /* ViewController.swift */,
+				47C8EE852AA8E2F1007E8B6A /* Main.storyboard */,
+				47C8EE882AA8E2F3007E8B6A /* Assets.xcassets */,
+				47C8EE8D2AA8E2F3007E8B6A /* Info.plist */,
+			);
+			path = "Mektup Evi";
+			sourceTree = "<group>";
+		};
+		47C8EE952AA8E2F3007E8B6A /* Mektup EviTests */ = {
+			isa = PBXGroup;
+			children = (
+				47C8EE962AA8E2F3007E8B6A /* Mektup_EviTests.swift */,
+			);
+			path = "Mektup EviTests";
+			sourceTree = "<group>";
+		};
+		47C8EE9F2AA8E2F3007E8B6A /* Mektup EviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47C8EEA02AA8E2F3007E8B6A /* Mektup_EviUITests.swift */,
+				47C8EEA22AA8E2F3007E8B6A /* Mektup_EviUITestsLaunchTests.swift */,
+			);
+			path = "Mektup EviUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47C8EE7B2AA8E2F1007E8B6A /* Mektup Evi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C8EEA62AA8E2F3007E8B6A /* Build configuration list for PBXNativeTarget "Mektup Evi" */;
+			buildPhases = (
+				47C8EE782AA8E2F1007E8B6A /* Sources */,
+				47C8EE792AA8E2F1007E8B6A /* Frameworks */,
+				47C8EE7A2AA8E2F1007E8B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mektup Evi";
+			productName = "Mektup Evi";
+			productReference = 47C8EE7C2AA8E2F1007E8B6A /* Mektup Evi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47C8EE912AA8E2F3007E8B6A /* Mektup EviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C8EEA92AA8E2F3007E8B6A /* Build configuration list for PBXNativeTarget "Mektup EviTests" */;
+			buildPhases = (
+				47C8EE8E2AA8E2F3007E8B6A /* Sources */,
+				47C8EE8F2AA8E2F3007E8B6A /* Frameworks */,
+				47C8EE902AA8E2F3007E8B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C8EE942AA8E2F3007E8B6A /* PBXTargetDependency */,
+			);
+			name = "Mektup EviTests";
+			productName = "Mektup EviTests";
+			productReference = 47C8EE922AA8E2F3007E8B6A /* Mektup EviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47C8EE9B2AA8E2F3007E8B6A /* Mektup EviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C8EEAC2AA8E2F3007E8B6A /* Build configuration list for PBXNativeTarget "Mektup EviUITests" */;
+			buildPhases = (
+				47C8EE982AA8E2F3007E8B6A /* Sources */,
+				47C8EE992AA8E2F3007E8B6A /* Frameworks */,
+				47C8EE9A2AA8E2F3007E8B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C8EE9E2AA8E2F3007E8B6A /* PBXTargetDependency */,
+			);
+			name = "Mektup EviUITests";
+			productName = "Mektup EviUITests";
+			productReference = 47C8EE9C2AA8E2F3007E8B6A /* Mektup EviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47C8EE742AA8E2F1007E8B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					47C8EE7B2AA8E2F1007E8B6A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					47C8EE912AA8E2F3007E8B6A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47C8EE7B2AA8E2F1007E8B6A;
+					};
+					47C8EE9B2AA8E2F3007E8B6A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47C8EE7B2AA8E2F1007E8B6A;
+					};
+				};
+			};
+			buildConfigurationList = 47C8EE772AA8E2F1007E8B6A /* Build configuration list for PBXProject "Mektup Evi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47C8EE732AA8E2F1007E8B6A;
+			productRefGroup = 47C8EE7D2AA8E2F1007E8B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47C8EE7B2AA8E2F1007E8B6A /* Mektup Evi */,
+				47C8EE912AA8E2F3007E8B6A /* Mektup EviTests */,
+				47C8EE9B2AA8E2F3007E8B6A /* Mektup EviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47C8EE7A2AA8E2F1007E8B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C8EE892AA8E2F3007E8B6A /* Assets.xcassets in Resources */,
+				477BC0B62AA91E9E0056513B /* Media.xcassets in Resources */,
+				4705CAC92AA9C0A3002AAE4D /* Launch Screen.storyboard in Resources */,
+				47C8EE872AA8E2F1007E8B6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8EE902AA8E2F3007E8B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8EE9A2AA8E2F3007E8B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47C8EE782AA8E2F1007E8B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C8EE842AA8E2F1007E8B6A /* ViewController.swift in Sources */,
+				47C8EE802AA8E2F1007E8B6A /* AppDelegate.swift in Sources */,
+				47C8EE822AA8E2F1007E8B6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8EE8E2AA8E2F3007E8B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C8EE972AA8E2F3007E8B6A /* Mektup_EviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8EE982AA8E2F3007E8B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C8EEA12AA8E2F3007E8B6A /* Mektup_EviUITests.swift in Sources */,
+				47C8EEA32AA8E2F3007E8B6A /* Mektup_EviUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47C8EE942AA8E2F3007E8B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47C8EE7B2AA8E2F1007E8B6A /* Mektup Evi */;
+			targetProxy = 47C8EE932AA8E2F3007E8B6A /* PBXContainerItemProxy */;
+		};
+		47C8EE9E2AA8E2F3007E8B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47C8EE7B2AA8E2F1007E8B6A /* Mektup Evi */;
+			targetProxy = 47C8EE9D2AA8E2F3007E8B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47C8EE852AA8E2F1007E8B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C8EE862AA8E2F1007E8B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47C8EEA42AA8E2F3007E8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47C8EEA52AA8E2F3007E8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47C8EEA72AA8E2F3007E8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mektup Evi/Mektup Evi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF888XH576;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mektup Evi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MektupEvi.Mektup-Evi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47C8EEA82AA8E2F3007E8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mektup Evi/Mektup Evi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF888XH576;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mektup Evi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MektupEvi.Mektup-Evi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47C8EEAA2AA8E2F3007E8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF888XH576;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MektupEvi.Mektup-EviTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mektup Evi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mektup Evi";
+			};
+			name = Debug;
+		};
+		47C8EEAB2AA8E2F3007E8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF888XH576;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MektupEvi.Mektup-EviTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mektup Evi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mektup Evi";
+			};
+			name = Release;
+		};
+		47C8EEAD2AA8E2F3007E8B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF888XH576;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MektupEvi.Mektup-EviUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mektup Evi";
+			};
+			name = Debug;
+		};
+		47C8EEAE2AA8E2F3007E8B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF888XH576;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MektupEvi.Mektup-EviUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mektup Evi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C8EE772AA8E2F1007E8B6A /* Build configuration list for PBXProject "Mektup Evi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8EEA42AA8E2F3007E8B6A /* Debug */,
+				47C8EEA52AA8E2F3007E8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C8EEA62AA8E2F3007E8B6A /* Build configuration list for PBXNativeTarget "Mektup Evi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8EEA72AA8E2F3007E8B6A /* Debug */,
+				47C8EEA82AA8E2F3007E8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C8EEA92AA8E2F3007E8B6A /* Build configuration list for PBXNativeTarget "Mektup EviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8EEAA2AA8E2F3007E8B6A /* Debug */,
+				47C8EEAB2AA8E2F3007E8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C8EEAC2AA8E2F3007E8B6A /* Build configuration list for PBXNativeTarget "Mektup EviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8EEAD2AA8E2F3007E8B6A /* Debug */,
+				47C8EEAE2AA8E2F3007E8B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47C8EE742AA8E2F1007E8B6A /* Project object */;
+}
